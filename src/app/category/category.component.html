@@ -1,0 +1,7 @@
+<div class="container mt-5">
+	<ul class="list-group">
+		<li class="list-group-item" *ngFor="let category of (category$ | async)">
+			<strong>{{ category.name }}</strong>
+		</li>
+	</ul>
+</div>
